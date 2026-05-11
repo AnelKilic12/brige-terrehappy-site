@@ -1,0 +1,58 @@
+import TestimonialSlider from "./TestimonialSlider";
+
+export default function Footer() {
+  return (
+    <>
+      <TestimonialSlider />
+
+      <section className="nature-section">
+        <h2>Un espace de nature et de sérénité</h2>
+        <p>Un environnement propice au calme, à la détente et au ressourcement.</p>
+
+        <div className="nature-image">
+          <img src="/images/nature.jpg" alt="Nature et sérénité" />
+        </div>
+      </section>
+
+      <footer className="footer">
+        <div className="footer-grid">
+          <div>
+            <h3>Informations supplémentaires</h3>
+            <p>8 bis Rue Baylon</p>
+            <p>1227 Carouge</p>
+            <p>Email : brige.spirale@gmail.com</p>
+            <p>Tel : 076 382 00 88</p>
+          </div>
+
+          <div>
+            <h3>Horaire</h3>
+            <p>Mercredi : 8h — 18h</p>
+            <p>Jeudi : 10h — 17h</p>
+            <p>Vendredi : 10h — 17h</p>
+          </div>
+
+          <div>
+            <h3>Réseaux sociaux</h3>
+            <p>Instagram · WhatsApp</p>
+          </div>
+        </div>
+
+        <div className="footer-bottom">
+            <p>© 2026 - labrige</p>
+
+            <a
+                href="https://evoswiss.ch"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="evoswiss-badge"
+            >
+                <img
+                src="/images/powered-by-evoswiss-white.png"
+                alt="Powered by Evoswiss"
+                />
+            </a>
+        </div>
+      </footer>
+    </>
+  );
+}
