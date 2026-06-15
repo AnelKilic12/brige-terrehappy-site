@@ -33,24 +33,41 @@ export default function Footer() {
 
           <div>
             <h3>Réseaux sociaux</h3>
-            <p>Instagram · WhatsApp</p>
+
+            <div className="social-links">
+              <a
+                href="https://www.instagram.com/brigitte_ehlers_fliege/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src="/images/instagram.png" alt="Instagram" />
+              </a>
+
+              <a
+                href="https://wa.me/41763820088"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src="/images/whatsapp_noir.png" alt="WhatsApp" />
+              </a>
+            </div>
           </div>
         </div>
 
         <div className="footer-bottom">
-            <p>© 2026 - labrige</p>
+          <p>© 2026 - labrige</p>
 
-            <a
-                href="https://evoswiss.ch"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="evoswiss-badge"
-            >
-                <img
-                src="/images/powered-by-evoswiss-white.png"
-                alt="Powered by Evoswiss"
-                />
-            </a>
+          <a
+            href="https://evoswiss.ch"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="evoswiss-badge"
+          >
+            <img
+              src="/images/powered-by-evoswiss-white.png"
+              alt="Powered by Evoswiss"
+            />
+          </a>
         </div>
       </footer>
     </>
