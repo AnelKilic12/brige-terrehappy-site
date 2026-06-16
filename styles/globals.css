@@ -592,6 +592,7 @@ main {
   max-width: 1100px;
   margin: 0 auto;
   display: grid;
+  text-align: center;
   grid-template-columns: repeat(3, 1fr);
   gap: 60px;
 }
@@ -1250,16 +1251,23 @@ main {
 
 .social-links {
   display: flex;
+  justify-content: center;
   gap: 18px;
-  margin-top: 15px;
 }
 
 .social-links img {
-  width: 32px;
-  height: 32px;
-  transition: 0.25s ease;
+  height: 42px;
+  width: auto;
+}
+
+.social-links a:first-child img {
+  height: 36px; /* Instagram */
+}
+
+.social-links a:last-child img {
+  height: 42px; /* WhatsApp */
 }
 
 .social-links img:hover {
-  transform: translateY(-3px) scale(1.08);
+  transform: scale(1.1);
 }

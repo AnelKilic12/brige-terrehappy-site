@@ -46,7 +46,7 @@ export default function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src="/images/instagram.png" alt="Instagram" />
+                <img src="/images/instagram_bleu.png" alt="Instagram" />
               </a>
 
               <a
@@ -54,7 +54,7 @@ export default function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src="/images/whatsapp_noir.png" alt="WhatsApp" />
+                <img src="/images/whatsapp_vert.png" alt="WhatsApp" />
               </a>
             </div>
           </div>
