@@ -1,4 +1,5 @@
 import TestimonialSlider from "./TestimonialSlider";
+import NatureCarousel from "./NatureCarousel";
 
 export default function Footer() {
   return (
@@ -6,12 +7,9 @@ export default function Footer() {
       <TestimonialSlider />
 
       <section className="nature-section">
-        <h2>Un espace de nature et de sérénité</h2>
-        <p>Un environnement propice au calme, à la détente et au ressourcement.</p>
+        <h2>Apprendre c'est s'engager</h2>
 
-        <div className="nature-image">
-          <img src="/images/nature.jpg" alt="Nature et sérénité" />
-        </div>
+        <NatureCarousel />
       </section>
 
       <footer className="footer">
