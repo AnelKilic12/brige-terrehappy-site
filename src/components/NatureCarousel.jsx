@@ -1,10 +1,10 @@
 import { useEffect, useState } from "react";
 
 const images = [
-  "/images/hero.jpg",
-  "/images/hero-2.jpg",
-  "/images/nature3.jpg",
-  "/images/nature4.jpg"
+  "/images/Reflexologie_footer.jpeg",
+  "/images/Livres_footer.jpeg",
+  "/images/MTC_footer.jpeg",
+  "/images/Brevet_Rescue_footer.jpeg"
 ];
 
 export default function NatureCarousel() {
