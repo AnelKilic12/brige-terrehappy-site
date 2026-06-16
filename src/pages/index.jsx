@@ -12,8 +12,7 @@ export default function Home() {
           <ScrollReveal>
             <h2 className="title">SERVICES</h2>
             <p className="subtitle">
-              Sur RDV les mercredis de 8h à 18h, jeudis de 10h à 17h et
-              vendredis de 10h à 19h.
+              Sur RDV les mercredis de 8h à 18h30, jeudis de 8h à 18h30.
             </p>
           </ScrollReveal>
 

@@ -11,7 +11,7 @@ export default function AboutSection() {
           <h2>Qui suis-je ?</h2>
           <p className="about-role">Thérapeute</p>
           <div className="asca-badge">
-            <img src="/images/asca.png" alt="ASCA - Médecines complémentaires" />
+            <img src="/images/asca.png" alt="ASCA - Médecines complémentaires" /><img src="/images/logo_rme.png" alt="RME - Qualité dans la médecine empirique" />
         </div>
 
           <p>
