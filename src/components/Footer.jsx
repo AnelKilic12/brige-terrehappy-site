@@ -26,9 +26,8 @@ export default function Footer() {
 
           <div>
             <h3>Horaire</h3>
-            <p>Mercredi : 8h — 18h</p>
-            <p>Jeudi : 10h — 17h</p>
-            <p>Vendredi : 10h — 17h</p>
+            <p>Mercredi : 8h — 18h30</p>
+            <p>Jeudi : 8h — 18h30</p>
           </div>
 
           <div>
