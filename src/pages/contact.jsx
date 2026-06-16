@@ -75,11 +75,9 @@ export default function Contact() {
                 <div className="lb-info-value">
                   Sur RDV :
                   <br />
-                  Mercredi 8h–18h
+                  Mercredi 8h–18h30
                   <br />
-                  Jeudi 10h–17h
-                  <br />
-                  Vendredi 10h–19h
+                  Jeudi 8h–18h30
                 </div>
               </div>
 

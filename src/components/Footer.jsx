@@ -18,7 +18,14 @@ export default function Footer() {
         <div className="footer-grid">
           <div>
             <h3>Informations supplémentaires</h3>
-            <p>8 bis Rue Baylon</p>
+            <h4>Ayni Concept</h4>
+            <a
+                    href="https://share.google/IeU7LVzqmFVKKXZXq"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    8 bis Rue Baylon, 1227 Carouge
+                  </a>
             <p>1227 Carouge</p>
             <p>Email : brige.spirale@gmail.com</p>
             <p>Tel : 076 382 00 88</p>

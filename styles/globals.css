@@ -1200,13 +1200,20 @@ main {
 }
 
 .asca-badge {
-  margin: 14px 0 22px;
-  max-width: 210px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin: 20px 0;
+  flex-wrap: wrap;
 }
 
-.asca-badge img {
-  width: 100%;
-  display: block;
+.asca-badge img:first-child {
+  height: 80px;
+}
+
+.asca-badge img:last-child {
+  height: 70px;
 }
 
 .footer-bottom {
