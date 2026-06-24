@@ -35,7 +35,9 @@ export default function Hero() {
       </div>
 
       <div className="hero-content">
-        <div className="hero-logo">✦</div>
+        <div className="hero-logo"><img src="/images/logo_spirale.png" alt="Logo Brige TerreHappy" /></div>
+        
+
 
         <h1>Brige TerreHappy</h1>
 
