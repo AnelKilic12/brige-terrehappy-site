@@ -262,22 +262,17 @@ main {
 }
 
 .hero-logo {
-  width: 64px;
-  height: 64px;
+  width: auto;
+  height: auto;
   margin: 0 auto 26px;
-  border-radius: 50%;
-  border: 2px solid rgba(255,255,255,0.75);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 26px;
-  background: rgba(255,255,255,0.12);
-  backdrop-filter: blur(4px);
+  border: none;
+  background: transparent;
+  backdrop-filter: none;
 }
 
 .hero-logo img {
-  width: 50px;
-  height: 50px;
+  width: 60px;
+  height: 60px;
   object-fit: contain;
   filter: brightness(0) invert(1);
 }
