@@ -54,6 +54,14 @@ export default function Footer() {
               >
                 <img src="/images/whatsapp_vert.png" alt="WhatsApp" />
               </a>
+
+              <a
+                href="https://www.linkedin.com/in/brigitte-ehlers-fliege-736462b/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >
+                 <img src="/images/linkedin.png" alt="Linkedin" /> 
+                </a>
             </div>
           </div>
         </div>

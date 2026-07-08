@@ -4,7 +4,8 @@ const images = [
   "/images/Reflexologie_footer.jpeg",
   "/images/Livres_footer.jpeg",
   "/images/MTC_footer.jpeg",
-  "/images/Brevet_Rescue_footer.jpeg"
+  "/images/Brevet_Rescue_footer.jpeg",
+  "/images/Auriculo therapie.jpeg"
 ];
 
 export default function NatureCarousel() {
