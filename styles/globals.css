@@ -265,15 +265,24 @@ main {
   width: auto;
   height: auto;
   margin: 0 auto 26px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
   border: none;
   background: transparent;
   backdrop-filter: none;
 }
 
 .hero-logo img {
-  width: 60px;
-  height: 60px;
+  display: block;
+  width: 64px;
+  height: 64px;
   object-fit: contain;
+  object-position: center;
+  margin: 0 auto;
+
   filter: brightness(0) invert(1);
 }
 
