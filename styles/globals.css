@@ -338,10 +338,18 @@ main {
   }
 }
 
-@media (max-width: 768px) {
-  .hero {
-    min-height: 620px;
+@media (max-width: 480px) {
+  .hero-logo {
+    width: 70px;
+    height: 70px;
+    margin: 0 auto 28px;
   }
+
+  .hero-logo img {
+    width: 64px;
+    height: 64px;
+  }
+}
 
   .hero-slide {
     background-position: center top;
