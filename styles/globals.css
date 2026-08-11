@@ -1336,25 +1336,43 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 24px;
+  gap: 22px;
 }
 
 .social-links a {
-  width: 48px;
-  height: 48px;
-
+  width: 52px;
+  height: 52px;
   display: flex;
   align-items: center;
   justify-content: center;
+  flex: 0 0 52px;
 }
 
 .social-links img {
   display: block;
-  width: 42px;
-  height: 42px;
+  width: 44px;
+  height: 44px;
   object-fit: contain;
   object-position: center;
   transition: transform 0.2s ease;
+}
+
+/* Instagram a souvent plus de marge transparente dans le PNG */
+.social-links a:nth-child(1) img {
+  width: 48px;
+  height: 48px;
+}
+
+/* WhatsApp */
+.social-links a:nth-child(2) img {
+  width: 44px;
+  height: 44px;
+}
+
+/* LinkedIn */
+.social-links a:nth-child(3) img {
+  width: 44px;
+  height: 44px;
 }
 
 .social-links img:hover {
@@ -1366,8 +1384,25 @@ main {
 ========================= */
 
 @media (max-width: 480px) {
-  .hero {
-    min-height: 680px;
+  .social-links {
+    gap: 20px;
+  }
+
+  .social-links a {
+    width: 54px;
+    height: 54px;
+    flex-basis: 54px;
+  }
+
+  .social-links a:nth-child(1) img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .social-links a:nth-child(2) img,
+  .social-links a:nth-child(3) img {
+    width: 46px;
+    height: 46px;
   }
 
   .hero-logo {
