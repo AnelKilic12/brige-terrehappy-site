@@ -1335,20 +1335,26 @@ main {
 .social-links {
   display: flex;
   justify-content: center;
-  gap: 18px;
+  align-items: center;
+  gap: 24px;
+}
+
+.social-links a {
+  width: 48px;
+  height: 48px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .social-links img {
+  display: block;
+  width: 42px;
   height: 42px;
-  width: auto;
-}
-
-.social-links a:first-child img {
-  height: 36px; /* Instagram */
-}
-
-.social-links a:last-child img {
-  height: 42px; /* WhatsApp */
+  object-fit: contain;
+  object-position: center;
+  transition: transform 0.2s ease;
 }
 
 .social-links img:hover {
