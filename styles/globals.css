@@ -284,6 +284,7 @@ main {
   margin: 0 auto;
 
   filter: brightness(0) invert(1);
+  transform: scaleX(-1);
 }
 
 .hero h1 {
