@@ -35,7 +35,7 @@ export default function AboutSection() {
                 Les soins énergétiques, le magnétisme, la réflexologie, des massages
                 et la lithothérapie ont été mes enseignants sur la voie de la thérapeute
                 en médecine complémentaire, agréée ASCA et RME*, que je suis devenue.
-                La médecine académique de base et Chinoise, essentielle pour comprendre l’humain
+                La médecine académique de base et Chinoise, essentielles pour comprendre l’humain
                 dans son ensemble : matière, systèmes, émotions et énergie.
               </p>
 
